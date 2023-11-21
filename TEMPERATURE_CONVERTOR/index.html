@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <div id="heading">
+            <h1> Temperature convertor</h1>
+        </div> 
+        <span class="from">
+            <div>
+                <input type="text" value="0" id="temp1"  onload="calc()">
+            </span>
+            <span>
+                <select id="unit1">
+                    <option value="Celsius" selected >Celsius</option>
+                    <option value="Kelvin">Kelvin</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Rankine">Rankine</option>
+                    <option value="Réaumur">Réaumur</option>
+                </select>
+            </span>
+        </div>
+        <h2>TO</h2>
+        <div class="to">
+            <span>
+                <input type="text" value="273"  id="temp2">
+            </span>
+            <span >
+                <select id="unit2">
+                    <option value="Celsius">Celsius</option>
+                    <option value="Kelvin" selected>Kelvin</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Rankine">Rankine</option>
+                    <option value="Réaumur">Réaumur</option>
+                </select>
+            </span>
+        </div>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
