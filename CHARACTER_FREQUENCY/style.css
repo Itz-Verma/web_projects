@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  color: white;
+  background-color: blueviolet;
+  border: 2px black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px yellow;
+  height: 5%;
+  width: 55%;
+  text-transform: uppercase;
+  transition: 500ms;
+  border: solid 2px black;
+}
+header:hover {
+  height: 5%;
+  width: 60%;
+  background-color: rgb(50, 0, 200);
+}
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+header h1:hover {
+  color: pink;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.container {
+  width: 100vh;
+  padding: 20px;
+
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 1);
+  margin: 10px;
+}
+
+::placeholder {
+  color: white;
+}
+input {
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  background-color: blueviolet;
+  border-color: black;
+  border: solid 2px black;
+  box-shadow: 5px 5px 5px yellow;
+  color: white;
+  transition: 500ms;
+}
+input:hover {
+  width: 80%;
+  background-color: rgb(50, 0, 200);
+}
+button {
+  margin: 20px;
+  border-radius: 8px;
+  background-color: blueviolet;
+  width: 15%;
+  height: 30%;
+  font-size: 30px;
+  border: solid 2px black;
+  box-shadow: 5px 5px 5px yellow;
+  transition: 500ms;
+  margin-bottom: 10px;
+}
+button:hover {
+  width: 20%;
+  background-color: rgb(50, 0, 200);
+  cursor: pointer;
+  color: white;
+}
+#result{
+    color:white;
+    background-color: blueviolet;
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px yellow;
+    width: 20%;
+
+}
+#result:hover{
+    color:white;
+    background-color:rgb(50, 0, 200);
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px yellow;
+    transition: 500ms;
+    width: 25%;
+}
+.invisible {
+    visibility: hidden;
+}
